@@ -1,8 +1,8 @@
-# Item Loader
+# Item Loaders
 
 `Item`对象相当于存储我们提取的信息的容器，他类似于`dict`的特性能帮助我们格式化的存储。而`ItemLoader`对象则相当于容器的填充工具，用来将信息装载到`Item`对象中。
 
-## 使用Item Loaders来装载数据
+## 使用ItemLoader来装载数据
 
 首先，初始化`ItemLoader`对象时，我们可以通过`Item`对象、`dict`来初始化它的`item参数`，当然也可以不设置，此时该参数被赋予默认值`ItemLoader.default_item_class`如：
 
